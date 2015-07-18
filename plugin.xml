@@ -48,9 +48,9 @@
             </feature>
         </config-file>
 
-        <config-file target="AndroidManifest.xml" parent="/*">
-            <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-        </config-file>
+        <!-- <config-file target="AndroidManifest.xml" parent="/*"> -->
+        <!--     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> -->
+        <!-- </config-file> -->
 
         <source-file src="src/android/FileTransfer.java" target-dir="src/org/apache/cordova/filetransfer" />
         <source-file src="src/android/FileProgressResult.java" target-dir="src/org/apache/cordova/filetransfer" />
@@ -65,9 +65,9 @@
             </feature>
         </config-file>
 
-        <config-file target="AndroidManifest.xml" parent="/*">
-            <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-        </config-file>
+        <!-- <config-file target="AndroidManifest.xml" parent="/*"> -->
+        <!--     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> -->
+        <!-- </config-file> -->
 
         <source-file src="src/amazon/FileTransfer.java" target-dir="src/org/apache/cordova/filetransfer" />
         <source-file src="src/android/FileProgressResult.java" target-dir="src/org/apache/cordova/filetransfer" />
